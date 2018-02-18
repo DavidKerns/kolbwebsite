@@ -1,0 +1,14 @@
+.book-description{
+  height: 100%;
+  font-size: 1.4em;
+  padding-left: 9%;
+}
+
+#book-img{
+  padding-left: 20%;
+
+}
+.book-title{
+  text-align: center;
+  padding-bottom: 5%;
+}
