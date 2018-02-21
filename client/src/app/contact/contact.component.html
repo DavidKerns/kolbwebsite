@@ -1,1 +1,24 @@
-<textarea name="name" rows="8" cols="80">hello world</textarea>
+<app-navbar></app-navbar>
+<div class="container">
+  <form>
+    <div class="form-row">
+      <div class="form-group">
+        <label for="first-name-input"> First Name </label>
+        <input  class="form-control col-md-6 first-name-input" type="fistName" placeholder="First Name" name="firstNameValue">
+        <label for="last-name-input"> Last Name </label>
+        <input  class="form-control col-md-6 last-name-input" type="lastName" placeholder="Last Name" name="lastNameValue">
+      </div>
+      <div class="form-group">
+        <label for="email-input"> Email Address </label>
+        <input  class="form-control email-input" type="email" placeholder="Email Here" name="emailValue"><br>
+      </div>
+      <div class="form-group">
+        <label for="company-input"> Company Name </label>
+        <input  class="form-control company-input" type="company" placeholder="Company Name Here" name="companyValue">
+        <label for="company-phone-input"> Contact Number </label>
+        <input  class="form-control company-phone-input" type="tel" maxlength="14" placeholder="Number to Contact" name="emailValue"><br>
+      </div>
+    </div>
+  </form>
+</div>
+<button type="submit" name="button"> Submit </button>
